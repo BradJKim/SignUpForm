@@ -1,0 +1,22 @@
+form.signupForm {
+    display: flex;
+    justify-content: row;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div.wrapper {
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+li {
+    display: flex;
+    align-content: center;
+    padding: .5em;
+}
+
+li > label {
+    flex: 1;
+    padding: .1em 1em 0 0;
+}
